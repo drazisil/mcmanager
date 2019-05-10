@@ -1,0 +1,4 @@
+autopep8==1.4.4
+beautifulsoup4==4.7.1
+pycodestyle==2.5.0
+soupsieve==1.9.1
