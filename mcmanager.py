@@ -49,13 +49,7 @@ def main():
     game_versions = fetch_game_versions(user_agent)
     for version in game_versions:
         print(version['name'])
-    #
-    # page_contents = fetch_page(url, user_agent)
-    #
-    # soup = BeautifulSoup(page_contents, 'html.parser')
-    # print(soup.title.string)
 
 
 if __name__ == "__main__":
-    # execute only if run as a script
     main()
