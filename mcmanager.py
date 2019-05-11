@@ -1,4 +1,9 @@
 #! /usr/bin/env python3
+# Copyright (c) 2019 Joe Becher
+# 
+# This software is released under the MIT License.
+# https://opensource.org/licenses/MIT
+
 
 from urllib.request import urlopen, Request
 from urllib.error import HTTPError
