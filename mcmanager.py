@@ -60,9 +60,9 @@ def main():
     def index():
         return render_template('index.html')
 
-    @app.route('/cakes')
+    @app.route('/versions')
     def cakes():
-        return 'Yummy cakes!'
+        return render_template('versions.html', game_versions=fetch_game_versions(user_agent))
 
     if __name__ == '__main__':
         app.run(debug=True, host='0.0.0.0')

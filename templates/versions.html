@@ -1,0 +1,10 @@
+<html>
+<body>
+<h1>My website</h1>
+<ul>
+  {% for version in game_versions %}
+    <li><a href="{{ version.id }}">{{ version.name }}</a></li>
+  {% endfor %}
+  </ul>
+</body>
+</html>
