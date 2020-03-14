@@ -1,1 +1,3 @@
-console.log("Hello, world");
+function main() {}
+
+module.exports = { main }
