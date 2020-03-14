@@ -1,7 +1,8 @@
+const info = require('../package.json')
 const { main } = require('../src')
 
 require('yargs')
-    .scriptName('pirate-parser')
+    .scriptName(info.name)
     .usage('$0 <cmd> [args]')
     .command(
         'hello [name]',
